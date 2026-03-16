@@ -1,0 +1,1 @@
+<path to windows-terminal>/settings/settings.json
