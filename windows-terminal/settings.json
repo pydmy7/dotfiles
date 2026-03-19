@@ -1,50 +1,43 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
             "id": "User.copy.224984B4"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "commandPalette"
             },
             "id": "User.commandPalette.D3F0B923"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "moveFocus",
                 "direction": "up"
             },
             "id": "User.moveFocus.6CD791B"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "moveFocus",
                 "direction": "left"
             },
             "id": "User.moveFocus.2A0DA8E0"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "moveFocus",
                 "direction": "right"
             },
             "id": "User.moveFocus.87C324ED"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "moveFocus",
                 "direction": "down"
             },
@@ -57,8 +50,7 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "initialCols": 150,
     "initialRows": 40,
-    "keybindings": 
-    [
+    "keybindings": [
         {
             "id": null,
             "keys": "ctrl+comma"
@@ -309,18 +301,14 @@
         }
     ],
     "newTabMenu": [],
-    "profiles": 
-    {
-        "defaults": 
-        {
-            "colorScheme": "GruvboxDark",
-            "font": 
-            {
+    "profiles": {
+        "defaults": {
+            "colorScheme": "Gruvbox Dark",
+            "font": {
                 "face": "JetBrainsMono Nerd Font Mono"
             }
         },
-        "list": 
-        [
+        "list": [
             {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -332,8 +320,7 @@
                 "name": "cmd"
             },
             {
-                "font": 
-                {
+                "font": {
                     "face": "JetBrainsMono Nerd Font Mono"
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -368,30 +355,29 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
-            "background": "#282828",
+            "name": "Gruvbox Dark",
             "black": "#282828",
+            "red": "#cc241d",
+            "green": "#98971a",
+            "yellow": "#d79921",
             "blue": "#458588",
+            "purple": "#b16286",
+            "cyan": "#689d6a",
+            "white": "#a89984",
             "brightBlack": "#928374",
-            "brightBlue": "#83A598",
-            "brightCyan": "#8EC07C",
-            "brightGreen": "#B8BB26",
-            "brightPurple": "#D3869B",
-            "brightRed": "#FB4934",
-            "brightWhite": "#EBDBB2",
-            "brightYellow": "#FABD2F",
-            "cursorColor": "#EBDBB2",
-            "cyan": "#689D6A",
-            "foreground": "#EBDBB2",
-            "green": "#98971A",
-            "name": "GruvboxDark",
-            "purple": "#B16286",
-            "red": "#CC241D",
-            "selectionBackground": "#665C54",
-            "white": "#A89984",
-            "yellow": "#D79921"
+            "brightRed": "#fb4934",
+            "brightGreen": "#b8bb26",
+            "brightYellow": "#fabd2f",
+            "brightBlue": "#83a598",
+            "brightPurple": "#d3869b",
+            "brightCyan": "#8ec07c",
+            "brightWhite": "#ebdbb2",
+            "background": "#282828",
+            "foreground": "#ebdbb2",
+            "cursorColor": "#ebdbb2",
+            "selectionBackground": "#665c54"
         }
     ],
     "themes": []
